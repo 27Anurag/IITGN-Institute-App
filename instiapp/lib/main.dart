@@ -6,8 +6,7 @@ import 'package:instiapp/screens/articles.dart';
 import 'package:instiapp/screens/complains.dart';
 import 'package:instiapp/screens/contacts.dart';
 import 'package:instiapp/screens/email.dart';
-
-
+import 'package:instiapp/screens/login.dart';
 
 void main() => runApp(MyApp());
 
@@ -31,7 +30,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.purple,
       ),
-      home: HomePage(),
+      home: LoginScreen(),
     );
   }
 }
